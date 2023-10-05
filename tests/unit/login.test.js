@@ -1,4 +1,4 @@
-const login = require("../models/login");
+const login = require("../../models/login");
 
 test("Campos de Usuário e Senha válidos", () => {
   var logon = login.verifyFields("admin", "senha");
