@@ -1,6 +1,5 @@
 function verifyFields(user, password) {
-  if (typeof user === "string" && typeof password === "string") return true;
-  else return false;
+  return typeof user === "string" && typeof password === "string";
 }
 
 exports.verifyFields = verifyFields;
